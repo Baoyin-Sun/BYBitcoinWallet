@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>http</key>
+	<string>WebViewController</string>
+	<key>https</key>
+	<string>WebViewController</string>
+	<key>router</key>
+	<dict>
+		<key>router://keyfollowup</key>
+		<string>DXKeyFollowUpViewController</string>
+		<key>router://evaluatelist</key>
+		<string>BYEvaluateViewCtrl</string>
+		<key>router://orderlist</key>
+		<string>WZOrderListViewController</string>
+		<key>router://phoneservice</key>
+		<string>DXCallCounselDetailsViewController</string>
+		<key>router://incomedetails</key>
+		<string>DXWorkpointsDetailViewController</string>
+		<key>router://resultauthenticate</key>
+		<string>WZIdentificationViewController</string>
+		<key>router://casehistory</key>
+		<string>CaseHistoryViewController</string>
+		<key>router://billingDetail</key>
+		<string>BYBillingDetailCtrl</string>
+		<key>router://patientList</key>
+		<string>BYPatientCtr</string>
+		<key>router://checkInList</key>
+		<string>BYReportPatientCtrl</string>
+		<key>router://taskdetail</key>
+		<string>DXPlusManagementDetailsViewController</string>
+		<key>router://setupseedoctorstime</key>
+		<string>BYArriveInHospitalCtrl</string>
+		<key>router://yb_H5JS_root</key>
+		<string>WZH5ViewController</string>
+	</dict>
+</dict>
+</plist>

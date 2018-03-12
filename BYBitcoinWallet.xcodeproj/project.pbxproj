@@ -1,0 +1,1355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5193C071A51E613824CE19EF /* libPods-BYBitcoinWallet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E0320DA51B16459BCA9E01FF /* libPods-BYBitcoinWallet.a */; };
+		7346EEE42024524D00B7BE92 /* CoinDealNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7346EEE32024524D00B7BE92 /* CoinDealNewsCell.m */; };
+		7346EEE72024740600B7BE92 /* ContractDealNewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7346EEE62024740600B7BE92 /* ContractDealNewsCell.m */; };
+		7346EEEB2028013200B7BE92 /* BYPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7346EEEA2028013200B7BE92 /* BYPopView.m */; };
+		7346EEEE2028019E00B7BE92 /* BYPopViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7346EEED2028019E00B7BE92 /* BYPopViewCell.m */; };
+		7346EEF1202801B800B7BE92 /* BYPopViewAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7346EEF0202801B800B7BE92 /* BYPopViewAction.m */; };
+		7349B99C201F12AD005BC3F9 /* CoinDealView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349B99B201F12AD005BC3F9 /* CoinDealView.m */; };
+		7349B99F20205373005BC3F9 /* UILabel+Proprety.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349B99E20205373005BC3F9 /* UILabel+Proprety.m */; };
+		7349B9A2202078EB005BC3F9 /* UIButton+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349B9A1202078EB005BC3F9 /* UIButton+Property.m */; };
+		7349B9A520216FAB005BC3F9 /* BYWebSocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349B9A420216FAB005BC3F9 /* BYWebSocketManager.m */; };
+		7349B9AE2021CFCB005BC3F9 /* BYTimeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349B9AD2021CFCB005BC3F9 /* BYTimeHelper.m */; };
+		7349B9B12022B0BE005BC3F9 /* ContractInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349B9B02022B0BE005BC3F9 /* ContractInfoView.m */; };
+		7349B9B42022B2EF005BC3F9 /* ContractDealView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349B9B32022B2EF005BC3F9 /* ContractDealView.m */; };
+		7349B9B72022C291005BC3F9 /* ContractTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 7349B9B62022C291005BC3F9 /* ContractTextField.m */; };
+		739B04F9201D8B2200608C21 /* MineTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 739B04F8201D8B2200608C21 /* MineTabCell.m */; };
+		739B04FC201D8C5600608C21 /* MineTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 739B04FB201D8C5600608C21 /* MineTabView.m */; };
+		739B0502201D952800608C21 /* MineDefaultCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 739B0501201D952800608C21 /* MineDefaultCell.m */; };
+		739B0505201D998700608C21 /* MineLogOutCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 739B0504201D998700608C21 /* MineLogOutCell.m */; };
+		739B0508201DBE8800608C21 /* CoinInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 739B0507201DBE8800608C21 /* CoinInfoView.m */; };
+		73BB5CAD2014AB1100962930 /* HomePageAnnouncementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CAC2014AB1100962930 /* HomePageAnnouncementCell.m */; };
+		73BB5CB02014B15C00962930 /* HomePageDealView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CAF2014B15C00962930 /* HomePageDealView.m */; };
+		73BB5CB320158EFE00962930 /* HomePageDealCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CB220158EFE00962930 /* HomePageDealCell.m */; };
+		73BB5CB620158F5400962930 /* TradingRangeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CB520158F5400962930 /* TradingRangeView.m */; };
+		73BB5CB92015B72900962930 /* HomePageUpsNoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CB82015B72900962930 /* HomePageUpsNoticeView.m */; };
+		73BB5CBC2015C2B800962930 /* HomePageAdvertisingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CBB2015C2B800962930 /* HomePageAdvertisingCell.m */; };
+		73BB5CBE2016D3C800962930 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 73BB5CBD2016D3C700962930 /* iconfont.ttf */; };
+		73BB5CC12016D5CB00962930 /* OKEXMarketCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CC02016D5CB00962930 /* OKEXMarketCtrl.m */; };
+		73BB5CC42016D5ED00962930 /* GlobalMarketCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CC32016D5ED00962930 /* GlobalMarketCtrl.m */; };
+		73BB5CC82016E98F00962930 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CC72016E98F00962930 /* HMSegmentedControl.m */; };
+		73BB5CCB20170C5300962930 /* OKEXMarketCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CCA20170C5300962930 /* OKEXMarketCell.m */; };
+		73BB5CCE201888CA00962930 /* GlobalMarketCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CCD201888CA00962930 /* GlobalMarketCell.m */; };
+		73BB5CD120188A1A00962930 /* MarketSettingCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CD020188A1A00962930 /* MarketSettingCtrl.m */; };
+		73BB5CD42018A66400962930 /* MarketSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CD32018A66400962930 /* MarketSettingCell.m */; };
+		73BB5CDA2019766700962930 /* WTReTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CD72019766700962930 /* WTReTextField.m */; };
+		73BB5CDB2019766700962930 /* WTReParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CD82019766700962930 /* WTReParser.m */; };
+		73BB5CDE2019767500962930 /* LimitLengthTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CDD2019767500962930 /* LimitLengthTextField.m */; };
+		73BB5CE12019BF6B00962930 /* MineTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CE02019BF6B00962930 /* MineTitleView.m */; };
+		73BB5CE42019D3B700962930 /* MineTitlePriceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73BB5CE32019D3B700962930 /* MineTitlePriceView.m */; };
+		73C09AB82011C27200023A35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09AB72011C27200023A35 /* AppDelegate.m */; };
+		73C09AC02011C27200023A35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73C09ABF2011C27200023A35 /* Assets.xcassets */; };
+		73C09AC62011C27200023A35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09AC52011C27200023A35 /* main.m */; };
+		73C09AD02011C27200023A35 /* BYBitcoinWalletTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09ACF2011C27200023A35 /* BYBitcoinWalletTests.m */; };
+		73C09ADB2011C27200023A35 /* BYBitcoinWalletUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09ADA2011C27200023A35 /* BYBitcoinWalletUITests.m */; };
+		73C09AFE2011CA2800023A35 /* BYViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09AF22011CA2500023A35 /* BYViewModel.m */; };
+		73C09AFF2011CA2800023A35 /* BYNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09AF42011CA2500023A35 /* BYNavigationController.m */; };
+		73C09B002011CA2800023A35 /* BYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09AF72011CA2600023A35 /* BYTabBarController.m */; };
+		73C09B012011CA2800023A35 /* BYView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09AF82011CA2700023A35 /* BYView.m */; };
+		73C09B022011CA2800023A35 /* BYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09AFA2011CA2700023A35 /* BYTableViewCell.m */; };
+		73C09B032011CA2800023A35 /* BYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09AFD2011CA2800023A35 /* BYViewController.m */; };
+		73C09B102011CA9500023A35 /* UIImage+BYCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B0D2011CA9500023A35 /* UIImage+BYCustom.m */; };
+		73C09B112011CA9500023A35 /* UIColor+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B0E2011CA9500023A35 /* UIColor+Addition.m */; };
+		73C09B1A2011CBB700023A35 /* BYLogInCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B192011CBB700023A35 /* BYLogInCtrl.m */; };
+		73C09B1F2011D47300023A35 /* BYRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B1E2011D47300023A35 /* BYRequest.m */; };
+		73C09B272011E44C00023A35 /* HomePageCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B262011E44C00023A35 /* HomePageCtrl.m */; };
+		73C09B2A2011E74600023A35 /* NSArray+ClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B292011E74600023A35 /* NSArray+ClassProperty.m */; };
+		73C09B352011E8ED00023A35 /* DCURLRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 73C09B2D2011E8ED00023A35 /* DCURLRouter.plist */; };
+		73C09B362011E8ED00023A35 /* UIViewController+DCURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B2E2011E8ED00023A35 /* UIViewController+DCURLRouter.m */; };
+		73C09B372011E8ED00023A35 /* DCURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B302011E8ED00023A35 /* DCURLRouter.m */; };
+		73C09B382011E8ED00023A35 /* DCURLNavgation.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B342011E8ED00023A35 /* DCURLNavgation.m */; };
+		73C09B542011EE1800023A35 /* MarketBaseCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B532011EE1800023A35 /* MarketBaseCtrl.m */; };
+		73C09B572011EEE400023A35 /* BitcoinCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B562011EEE400023A35 /* BitcoinCtrl.m */; };
+		73C09B5A2011EF0A00023A35 /* ContractCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B592011EF0A00023A35 /* ContractCtrl.m */; };
+		73C09B5D2011EF2200023A35 /* MineCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B5C2011EF2200023A35 /* MineCtrl.m */; };
+		73C09B602014361500023A35 /* BYCyclePagerViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B5F2014361500023A35 /* BYCyclePagerViewCell.m */; };
+		73C09B632014682000023A35 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B622014682000023A35 /* UIView+Frame.m */; };
+		73C09B6620146BBB00023A35 /* HomePageDIGICCYListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B6520146BBB00023A35 /* HomePageDIGICCYListCell.m */; };
+		73C09B6920147D4700023A35 /* HomePageTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B6820147D4700023A35 /* HomePageTitleView.m */; };
+		73C09B6D20149AF700023A35 /* HomePageMarketTabCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B6C20149AF700023A35 /* HomePageMarketTabCell.m */; };
+		73C09B7020149CE200023A35 /* HomePageMarketTabView.m in Sources */ = {isa = PBXBuildFile; fileRef = 73C09B6F20149CE200023A35 /* HomePageMarketTabView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73C09ACC2011C27200023A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73C09AAB2011C27200023A35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73C09AB22011C27200023A35;
+			remoteInfo = BYBitcoinWallet;
+		};
+		73C09AD72011C27200023A35 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73C09AAB2011C27200023A35 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73C09AB22011C27200023A35;
+			remoteInfo = BYBitcoinWallet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7346EEE22024524D00B7BE92 /* CoinDealNewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoinDealNewsCell.h; sourceTree = "<group>"; };
+		7346EEE32024524D00B7BE92 /* CoinDealNewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinDealNewsCell.m; sourceTree = "<group>"; };
+		7346EEE52024740600B7BE92 /* ContractDealNewsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContractDealNewsCell.h; sourceTree = "<group>"; };
+		7346EEE62024740600B7BE92 /* ContractDealNewsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContractDealNewsCell.m; sourceTree = "<group>"; };
+		7346EEE92028013200B7BE92 /* BYPopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYPopView.h; sourceTree = "<group>"; };
+		7346EEEA2028013200B7BE92 /* BYPopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYPopView.m; sourceTree = "<group>"; };
+		7346EEEC2028019E00B7BE92 /* BYPopViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYPopViewCell.h; sourceTree = "<group>"; };
+		7346EEED2028019E00B7BE92 /* BYPopViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYPopViewCell.m; sourceTree = "<group>"; };
+		7346EEEF202801B800B7BE92 /* BYPopViewAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYPopViewAction.h; sourceTree = "<group>"; };
+		7346EEF0202801B800B7BE92 /* BYPopViewAction.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYPopViewAction.m; sourceTree = "<group>"; };
+		7349B99A201F12AD005BC3F9 /* CoinDealView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoinDealView.h; sourceTree = "<group>"; };
+		7349B99B201F12AD005BC3F9 /* CoinDealView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinDealView.m; sourceTree = "<group>"; };
+		7349B99D20205373005BC3F9 /* UILabel+Proprety.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Proprety.h"; sourceTree = "<group>"; };
+		7349B99E20205373005BC3F9 /* UILabel+Proprety.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Proprety.m"; sourceTree = "<group>"; };
+		7349B9A0202078EB005BC3F9 /* UIButton+Property.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Property.h"; sourceTree = "<group>"; };
+		7349B9A1202078EB005BC3F9 /* UIButton+Property.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Property.m"; sourceTree = "<group>"; };
+		7349B9A320216FAB005BC3F9 /* BYWebSocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYWebSocketManager.h; sourceTree = "<group>"; };
+		7349B9A420216FAB005BC3F9 /* BYWebSocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYWebSocketManager.m; sourceTree = "<group>"; };
+		7349B9AC2021CFCB005BC3F9 /* BYTimeHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYTimeHelper.h; sourceTree = "<group>"; };
+		7349B9AD2021CFCB005BC3F9 /* BYTimeHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYTimeHelper.m; sourceTree = "<group>"; };
+		7349B9AF2022B0BE005BC3F9 /* ContractInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContractInfoView.h; sourceTree = "<group>"; };
+		7349B9B02022B0BE005BC3F9 /* ContractInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContractInfoView.m; sourceTree = "<group>"; };
+		7349B9B22022B2EF005BC3F9 /* ContractDealView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContractDealView.h; sourceTree = "<group>"; };
+		7349B9B32022B2EF005BC3F9 /* ContractDealView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContractDealView.m; sourceTree = "<group>"; };
+		7349B9B52022C291005BC3F9 /* ContractTextField.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContractTextField.h; sourceTree = "<group>"; };
+		7349B9B62022C291005BC3F9 /* ContractTextField.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContractTextField.m; sourceTree = "<group>"; };
+		739B04F7201D8B2200608C21 /* MineTabCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineTabCell.h; sourceTree = "<group>"; };
+		739B04F8201D8B2200608C21 /* MineTabCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineTabCell.m; sourceTree = "<group>"; };
+		739B04FA201D8C5600608C21 /* MineTabView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineTabView.h; sourceTree = "<group>"; };
+		739B04FB201D8C5600608C21 /* MineTabView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineTabView.m; sourceTree = "<group>"; };
+		739B0500201D952800608C21 /* MineDefaultCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineDefaultCell.h; sourceTree = "<group>"; };
+		739B0501201D952800608C21 /* MineDefaultCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineDefaultCell.m; sourceTree = "<group>"; };
+		739B0503201D998700608C21 /* MineLogOutCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineLogOutCell.h; sourceTree = "<group>"; };
+		739B0504201D998700608C21 /* MineLogOutCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineLogOutCell.m; sourceTree = "<group>"; };
+		739B0506201DBE8800608C21 /* CoinInfoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoinInfoView.h; sourceTree = "<group>"; };
+		739B0507201DBE8800608C21 /* CoinInfoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoinInfoView.m; sourceTree = "<group>"; };
+		73BB5CAB2014AB1100962930 /* HomePageAnnouncementCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageAnnouncementCell.h; sourceTree = "<group>"; };
+		73BB5CAC2014AB1100962930 /* HomePageAnnouncementCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageAnnouncementCell.m; sourceTree = "<group>"; };
+		73BB5CAE2014B15C00962930 /* HomePageDealView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageDealView.h; sourceTree = "<group>"; };
+		73BB5CAF2014B15C00962930 /* HomePageDealView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageDealView.m; sourceTree = "<group>"; };
+		73BB5CB120158EFE00962930 /* HomePageDealCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageDealCell.h; sourceTree = "<group>"; };
+		73BB5CB220158EFE00962930 /* HomePageDealCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageDealCell.m; sourceTree = "<group>"; };
+		73BB5CB420158F5400962930 /* TradingRangeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TradingRangeView.h; sourceTree = "<group>"; };
+		73BB5CB520158F5400962930 /* TradingRangeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TradingRangeView.m; sourceTree = "<group>"; };
+		73BB5CB72015B72900962930 /* HomePageUpsNoticeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageUpsNoticeView.h; sourceTree = "<group>"; };
+		73BB5CB82015B72900962930 /* HomePageUpsNoticeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageUpsNoticeView.m; sourceTree = "<group>"; };
+		73BB5CBA2015C2B800962930 /* HomePageAdvertisingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageAdvertisingCell.h; sourceTree = "<group>"; };
+		73BB5CBB2015C2B800962930 /* HomePageAdvertisingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageAdvertisingCell.m; sourceTree = "<group>"; };
+		73BB5CBD2016D3C700962930 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		73BB5CBF2016D5CB00962930 /* OKEXMarketCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKEXMarketCtrl.h; sourceTree = "<group>"; };
+		73BB5CC02016D5CB00962930 /* OKEXMarketCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKEXMarketCtrl.m; sourceTree = "<group>"; };
+		73BB5CC22016D5ED00962930 /* GlobalMarketCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalMarketCtrl.h; sourceTree = "<group>"; };
+		73BB5CC32016D5ED00962930 /* GlobalMarketCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalMarketCtrl.m; sourceTree = "<group>"; };
+		73BB5CC62016E98F00962930 /* HMSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HMSegmentedControl.h; sourceTree = "<group>"; };
+		73BB5CC72016E98F00962930 /* HMSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HMSegmentedControl.m; sourceTree = "<group>"; };
+		73BB5CC920170C5300962930 /* OKEXMarketCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OKEXMarketCell.h; sourceTree = "<group>"; };
+		73BB5CCA20170C5300962930 /* OKEXMarketCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKEXMarketCell.m; sourceTree = "<group>"; };
+		73BB5CCC201888CA00962930 /* GlobalMarketCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlobalMarketCell.h; sourceTree = "<group>"; };
+		73BB5CCD201888CA00962930 /* GlobalMarketCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlobalMarketCell.m; sourceTree = "<group>"; };
+		73BB5CCF20188A1A00962930 /* MarketSettingCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketSettingCtrl.h; sourceTree = "<group>"; };
+		73BB5CD020188A1A00962930 /* MarketSettingCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketSettingCtrl.m; sourceTree = "<group>"; };
+		73BB5CD22018A66400962930 /* MarketSettingCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketSettingCell.h; sourceTree = "<group>"; };
+		73BB5CD32018A66400962930 /* MarketSettingCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketSettingCell.m; sourceTree = "<group>"; };
+		73BB5CD62019766700962930 /* WTReParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTReParser.h; sourceTree = "<group>"; };
+		73BB5CD72019766700962930 /* WTReTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTReTextField.m; sourceTree = "<group>"; };
+		73BB5CD82019766700962930 /* WTReParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTReParser.m; sourceTree = "<group>"; };
+		73BB5CD92019766700962930 /* WTReTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTReTextField.h; sourceTree = "<group>"; };
+		73BB5CDC2019767500962930 /* LimitLengthTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LimitLengthTextField.h; sourceTree = "<group>"; };
+		73BB5CDD2019767500962930 /* LimitLengthTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LimitLengthTextField.m; sourceTree = "<group>"; };
+		73BB5CDF2019BF6B00962930 /* MineTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineTitleView.h; sourceTree = "<group>"; };
+		73BB5CE02019BF6B00962930 /* MineTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineTitleView.m; sourceTree = "<group>"; };
+		73BB5CE22019D3B700962930 /* MineTitlePriceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineTitlePriceView.h; sourceTree = "<group>"; };
+		73BB5CE32019D3B700962930 /* MineTitlePriceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineTitlePriceView.m; sourceTree = "<group>"; };
+		73C09AB32011C27200023A35 /* BYBitcoinWallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BYBitcoinWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C09AB62011C27200023A35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73C09AB72011C27200023A35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		73C09ABF2011C27200023A35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73C09AC42011C27200023A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73C09AC52011C27200023A35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73C09ACB2011C27200023A35 /* BYBitcoinWalletTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BYBitcoinWalletTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C09ACF2011C27200023A35 /* BYBitcoinWalletTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBitcoinWalletTests.m; sourceTree = "<group>"; };
+		73C09AD12011C27200023A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73C09AD62011C27200023A35 /* BYBitcoinWalletUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BYBitcoinWalletUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73C09ADA2011C27200023A35 /* BYBitcoinWalletUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYBitcoinWalletUITests.m; sourceTree = "<group>"; };
+		73C09ADC2011C27200023A35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73C09AF22011CA2500023A35 /* BYViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYViewModel.m; sourceTree = "<group>"; };
+		73C09AF32011CA2500023A35 /* BYViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYViewModel.h; sourceTree = "<group>"; };
+		73C09AF42011CA2500023A35 /* BYNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYNavigationController.m; sourceTree = "<group>"; };
+		73C09AF52011CA2600023A35 /* BYTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTabBarController.h; sourceTree = "<group>"; };
+		73C09AF62011CA2600023A35 /* BYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYTableViewCell.h; sourceTree = "<group>"; };
+		73C09AF72011CA2600023A35 /* BYTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYTabBarController.m; sourceTree = "<group>"; };
+		73C09AF82011CA2700023A35 /* BYView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYView.m; sourceTree = "<group>"; };
+		73C09AF92011CA2700023A35 /* BYNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYNavigationController.h; sourceTree = "<group>"; };
+		73C09AFA2011CA2700023A35 /* BYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYTableViewCell.m; sourceTree = "<group>"; };
+		73C09AFB2011CA2800023A35 /* BYViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYViewController.h; sourceTree = "<group>"; };
+		73C09AFC2011CA2800023A35 /* BYView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYView.h; sourceTree = "<group>"; };
+		73C09AFD2011CA2800023A35 /* BYViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYViewController.m; sourceTree = "<group>"; };
+		73C09B0B2011CA7500023A35 /* BYGeneralMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYGeneralMacro.h; sourceTree = "<group>"; };
+		73C09B0C2011CA9500023A35 /* UIImage+BYCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+BYCustom.h"; sourceTree = "<group>"; };
+		73C09B0D2011CA9500023A35 /* UIImage+BYCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+BYCustom.m"; sourceTree = "<group>"; };
+		73C09B0E2011CA9500023A35 /* UIColor+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Addition.m"; sourceTree = "<group>"; };
+		73C09B0F2011CA9500023A35 /* UIColor+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Addition.h"; sourceTree = "<group>"; };
+		73C09B182011CBB600023A35 /* BYLogInCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BYLogInCtrl.h; sourceTree = "<group>"; };
+		73C09B192011CBB700023A35 /* BYLogInCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BYLogInCtrl.m; sourceTree = "<group>"; };
+		73C09B1C2011CC7A00023A35 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		73C09B1D2011D47300023A35 /* BYRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYRequest.h; sourceTree = "<group>"; };
+		73C09B1E2011D47300023A35 /* BYRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYRequest.m; sourceTree = "<group>"; };
+		73C09B252011E44C00023A35 /* HomePageCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageCtrl.h; sourceTree = "<group>"; };
+		73C09B262011E44C00023A35 /* HomePageCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageCtrl.m; sourceTree = "<group>"; };
+		73C09B282011E74600023A35 /* NSArray+ClassProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+ClassProperty.h"; sourceTree = "<group>"; };
+		73C09B292011E74600023A35 /* NSArray+ClassProperty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ClassProperty.m"; sourceTree = "<group>"; };
+		73C09B2D2011E8ED00023A35 /* DCURLRouter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DCURLRouter.plist; sourceTree = "<group>"; };
+		73C09B2E2011E8ED00023A35 /* UIViewController+DCURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DCURLRouter.m"; sourceTree = "<group>"; };
+		73C09B2F2011E8ED00023A35 /* DCURLNavgation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCURLNavgation.h; sourceTree = "<group>"; };
+		73C09B302011E8ED00023A35 /* DCURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCURLRouter.m; sourceTree = "<group>"; };
+		73C09B312011E8ED00023A35 /* DCSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSingleton.h; sourceTree = "<group>"; };
+		73C09B322011E8ED00023A35 /* UIViewController+DCURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DCURLRouter.h"; sourceTree = "<group>"; };
+		73C09B332011E8ED00023A35 /* DCURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCURLRouter.h; sourceTree = "<group>"; };
+		73C09B342011E8ED00023A35 /* DCURLNavgation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCURLNavgation.m; sourceTree = "<group>"; };
+		73C09B522011EE1800023A35 /* MarketBaseCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MarketBaseCtrl.h; sourceTree = "<group>"; };
+		73C09B532011EE1800023A35 /* MarketBaseCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarketBaseCtrl.m; sourceTree = "<group>"; };
+		73C09B552011EEE400023A35 /* BitcoinCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BitcoinCtrl.h; sourceTree = "<group>"; };
+		73C09B562011EEE400023A35 /* BitcoinCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitcoinCtrl.m; sourceTree = "<group>"; };
+		73C09B582011EF0A00023A35 /* ContractCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContractCtrl.h; sourceTree = "<group>"; };
+		73C09B592011EF0A00023A35 /* ContractCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContractCtrl.m; sourceTree = "<group>"; };
+		73C09B5B2011EF2200023A35 /* MineCtrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineCtrl.h; sourceTree = "<group>"; };
+		73C09B5C2011EF2200023A35 /* MineCtrl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineCtrl.m; sourceTree = "<group>"; };
+		73C09B5E2014361500023A35 /* BYCyclePagerViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BYCyclePagerViewCell.h; sourceTree = "<group>"; };
+		73C09B5F2014361500023A35 /* BYCyclePagerViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYCyclePagerViewCell.m; sourceTree = "<group>"; };
+		73C09B612014682000023A35 /* UIView+Frame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		73C09B622014682000023A35 /* UIView+Frame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		73C09B6420146BBB00023A35 /* HomePageDIGICCYListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageDIGICCYListCell.h; sourceTree = "<group>"; };
+		73C09B6520146BBB00023A35 /* HomePageDIGICCYListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageDIGICCYListCell.m; sourceTree = "<group>"; };
+		73C09B6720147D4700023A35 /* HomePageTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageTitleView.h; sourceTree = "<group>"; };
+		73C09B6820147D4700023A35 /* HomePageTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageTitleView.m; sourceTree = "<group>"; };
+		73C09B6B20149AF700023A35 /* HomePageMarketTabCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageMarketTabCell.h; sourceTree = "<group>"; };
+		73C09B6C20149AF700023A35 /* HomePageMarketTabCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageMarketTabCell.m; sourceTree = "<group>"; };
+		73C09B6E20149CE200023A35 /* HomePageMarketTabView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePageMarketTabView.h; sourceTree = "<group>"; };
+		73C09B6F20149CE200023A35 /* HomePageMarketTabView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePageMarketTabView.m; sourceTree = "<group>"; };
+		C06844B538432C998AFF403A /* Pods-BYBitcoinWallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYBitcoinWallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-BYBitcoinWallet/Pods-BYBitcoinWallet.release.xcconfig"; sourceTree = "<group>"; };
+		CC9D2BEBC39EA0A9F249D28A /* Pods-BYBitcoinWallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BYBitcoinWallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BYBitcoinWallet/Pods-BYBitcoinWallet.debug.xcconfig"; sourceTree = "<group>"; };
+		E0320DA51B16459BCA9E01FF /* libPods-BYBitcoinWallet.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BYBitcoinWallet.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73C09AB02011C27200023A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5193C071A51E613824CE19EF /* libPods-BYBitcoinWallet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C09AC82011C27200023A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C09AD32011C27200023A35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		627549EA2165EA06BE6FDFF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0320DA51B16459BCA9E01FF /* libPods-BYBitcoinWallet.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7346EEE82027FFA000B7BE92 /* GeneralClass */ = {
+			isa = PBXGroup;
+			children = (
+				7346EEF220280ACE00B7BE92 /* PopoverView */,
+			);
+			path = GeneralClass;
+			sourceTree = "<group>";
+		};
+		7346EEF220280ACE00B7BE92 /* PopoverView */ = {
+			isa = PBXGroup;
+			children = (
+				7346EEE92028013200B7BE92 /* BYPopView.h */,
+				7346EEEA2028013200B7BE92 /* BYPopView.m */,
+				7346EEEC2028019E00B7BE92 /* BYPopViewCell.h */,
+				7346EEED2028019E00B7BE92 /* BYPopViewCell.m */,
+				7346EEEF202801B800B7BE92 /* BYPopViewAction.h */,
+				7346EEF0202801B800B7BE92 /* BYPopViewAction.m */,
+			);
+			path = PopoverView;
+			sourceTree = "<group>";
+		};
+		73BB5CC52016E98F00962930 /* HMSegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				73BB5CC62016E98F00962930 /* HMSegmentedControl.h */,
+				73BB5CC72016E98F00962930 /* HMSegmentedControl.m */,
+			);
+			path = HMSegmentedControl;
+			sourceTree = "<group>";
+		};
+		73BB5CD52019766700962930 /* WTReTextField */ = {
+			isa = PBXGroup;
+			children = (
+				73BB5CD62019766700962930 /* WTReParser.h */,
+				73BB5CD72019766700962930 /* WTReTextField.m */,
+				73BB5CD82019766700962930 /* WTReParser.m */,
+				73BB5CD92019766700962930 /* WTReTextField.h */,
+			);
+			path = WTReTextField;
+			sourceTree = "<group>";
+		};
+		73C09AAA2011C27200023A35 = {
+			isa = PBXGroup;
+			children = (
+				73C09AB52011C27200023A35 /* BYBitcoinWallet */,
+				73C09ACE2011C27200023A35 /* BYBitcoinWalletTests */,
+				73C09AD92011C27200023A35 /* BYBitcoinWalletUITests */,
+				73C09AB42011C27200023A35 /* Products */,
+				A643D4E10C7BEF007EA210CD /* Pods */,
+				627549EA2165EA06BE6FDFF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		73C09AB42011C27200023A35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73C09AB32011C27200023A35 /* BYBitcoinWallet.app */,
+				73C09ACB2011C27200023A35 /* BYBitcoinWalletTests.xctest */,
+				73C09AD62011C27200023A35 /* BYBitcoinWalletUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73C09AB52011C27200023A35 /* BYBitcoinWallet */ = {
+			isa = PBXGroup;
+			children = (
+				73C09AE82011C6FB00023A35 /* Project */,
+				73C09ABF2011C27200023A35 /* Assets.xcassets */,
+				73BB5CBD2016D3C700962930 /* iconfont.ttf */,
+				73C09AC42011C27200023A35 /* Info.plist */,
+			);
+			path = BYBitcoinWallet;
+			sourceTree = "<group>";
+		};
+		73C09ACE2011C27200023A35 /* BYBitcoinWalletTests */ = {
+			isa = PBXGroup;
+			children = (
+				73C09ACF2011C27200023A35 /* BYBitcoinWalletTests.m */,
+				73C09AD12011C27200023A35 /* Info.plist */,
+			);
+			path = BYBitcoinWalletTests;
+			sourceTree = "<group>";
+		};
+		73C09AD92011C27200023A35 /* BYBitcoinWalletUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73C09ADA2011C27200023A35 /* BYBitcoinWalletUITests.m */,
+				73C09ADC2011C27200023A35 /* Info.plist */,
+			);
+			path = BYBitcoinWalletUITests;
+			sourceTree = "<group>";
+		};
+		73C09AE82011C6FB00023A35 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				73C09AF02011C79C00023A35 /* SupportFiles */,
+				73C09AED2011C6FB00023A35 /* AppDelegate */,
+				73C09B2B2011E8DB00023A35 /* Vendors */,
+				73C09AEA2011C6FB00023A35 /* General */,
+				73C09AEC2011C6FB00023A35 /* Macro */,
+				73C09AEE2011C6FB00023A35 /* Helpers */,
+				73C09AEB2011C6FB00023A35 /* Resourch */,
+				73C09AE92011C6FB00023A35 /* Sections */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		73C09AE92011C6FB00023A35 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B132011CB8E00023A35 /* LoginRelated */,
+				73C09B202011E40A00023A35 /* HomePageRelated */,
+				73C09B432011EACC00023A35 /* MarketRelated */,
+				73C09B3E2011EAB400023A35 /* BitcoinRelated */,
+				73C09B482011EAF400023A35 /* ContractRelated */,
+				73C09B4D2011EB3200023A35 /* MineRelated */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		73C09AEA2011C6FB00023A35 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				7346EEE82027FFA000B7BE92 /* GeneralClass */,
+				73C09AF12011C9FE00023A35 /* Base */,
+				73C09B042011CA4800023A35 /* Categories */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		73C09AEB2011C6FB00023A35 /* Resourch */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resourch;
+			sourceTree = "<group>";
+		};
+		73C09AEC2011C6FB00023A35 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B0B2011CA7500023A35 /* BYGeneralMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		73C09AED2011C6FB00023A35 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				73C09AB62011C27200023A35 /* AppDelegate.h */,
+				73C09AB72011C27200023A35 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		73C09AEE2011C6FB00023A35 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B1D2011D47300023A35 /* BYRequest.h */,
+				73C09B1E2011D47300023A35 /* BYRequest.m */,
+				7349B9A320216FAB005BC3F9 /* BYWebSocketManager.h */,
+				7349B9A420216FAB005BC3F9 /* BYWebSocketManager.m */,
+				7349B9AC2021CFCB005BC3F9 /* BYTimeHelper.h */,
+				7349B9AD2021CFCB005BC3F9 /* BYTimeHelper.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		73C09AF02011C79C00023A35 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				73C09AC52011C27200023A35 /* main.m */,
+				73C09B1C2011CC7A00023A35 /* PrefixHeader.pch */,
+			);
+			path = SupportFiles;
+			sourceTree = "<group>";
+		};
+		73C09AF12011C9FE00023A35 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				73C09AF92011CA2700023A35 /* BYNavigationController.h */,
+				73C09AF42011CA2500023A35 /* BYNavigationController.m */,
+				73C09AF52011CA2600023A35 /* BYTabBarController.h */,
+				73C09AF72011CA2600023A35 /* BYTabBarController.m */,
+				73C09AF62011CA2600023A35 /* BYTableViewCell.h */,
+				73C09AFA2011CA2700023A35 /* BYTableViewCell.m */,
+				73C09AFC2011CA2800023A35 /* BYView.h */,
+				73C09AF82011CA2700023A35 /* BYView.m */,
+				73C09AFB2011CA2800023A35 /* BYViewController.h */,
+				73C09AFD2011CA2800023A35 /* BYViewController.m */,
+				73C09AF32011CA2500023A35 /* BYViewModel.h */,
+				73C09AF22011CA2500023A35 /* BYViewModel.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		73C09B042011CA4800023A35 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B0F2011CA9500023A35 /* UIColor+Addition.h */,
+				73C09B0E2011CA9500023A35 /* UIColor+Addition.m */,
+				73C09B0C2011CA9500023A35 /* UIImage+BYCustom.h */,
+				73C09B0D2011CA9500023A35 /* UIImage+BYCustom.m */,
+				73C09B282011E74600023A35 /* NSArray+ClassProperty.h */,
+				73C09B292011E74600023A35 /* NSArray+ClassProperty.m */,
+				73C09B612014682000023A35 /* UIView+Frame.h */,
+				73C09B622014682000023A35 /* UIView+Frame.m */,
+				7349B99D20205373005BC3F9 /* UILabel+Proprety.h */,
+				7349B99E20205373005BC3F9 /* UILabel+Proprety.m */,
+				7349B9A0202078EB005BC3F9 /* UIButton+Property.h */,
+				7349B9A1202078EB005BC3F9 /* UIButton+Property.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		73C09B132011CB8E00023A35 /* LoginRelated */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B152011CB8E00023A35 /* Model */,
+				73C09B162011CB8E00023A35 /* View */,
+				73C09B142011CB8E00023A35 /* ViewModel */,
+				73C09B172011CB8E00023A35 /* ViewController */,
+			);
+			path = LoginRelated;
+			sourceTree = "<group>";
+		};
+		73C09B142011CB8E00023A35 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		73C09B152011CB8E00023A35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73C09B162011CB8E00023A35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73C09B172011CB8E00023A35 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B182011CBB600023A35 /* BYLogInCtrl.h */,
+				73C09B192011CBB700023A35 /* BYLogInCtrl.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		73C09B202011E40A00023A35 /* HomePageRelated */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B222011E40A00023A35 /* Model */,
+				73C09B232011E40A00023A35 /* View */,
+				73C09B212011E40A00023A35 /* ViewModel */,
+				73C09B242011E40A00023A35 /* ViewController */,
+			);
+			path = HomePageRelated;
+			sourceTree = "<group>";
+		};
+		73C09B212011E40A00023A35 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		73C09B222011E40A00023A35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73C09B232011E40A00023A35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B5E2014361500023A35 /* BYCyclePagerViewCell.h */,
+				73C09B5F2014361500023A35 /* BYCyclePagerViewCell.m */,
+				73C09B6420146BBB00023A35 /* HomePageDIGICCYListCell.h */,
+				73C09B6520146BBB00023A35 /* HomePageDIGICCYListCell.m */,
+				73C09B6720147D4700023A35 /* HomePageTitleView.h */,
+				73C09B6820147D4700023A35 /* HomePageTitleView.m */,
+				73C09B6B20149AF700023A35 /* HomePageMarketTabCell.h */,
+				73C09B6C20149AF700023A35 /* HomePageMarketTabCell.m */,
+				73C09B6E20149CE200023A35 /* HomePageMarketTabView.h */,
+				73C09B6F20149CE200023A35 /* HomePageMarketTabView.m */,
+				73BB5CAB2014AB1100962930 /* HomePageAnnouncementCell.h */,
+				73BB5CAC2014AB1100962930 /* HomePageAnnouncementCell.m */,
+				73BB5CAE2014B15C00962930 /* HomePageDealView.h */,
+				73BB5CAF2014B15C00962930 /* HomePageDealView.m */,
+				73BB5CB120158EFE00962930 /* HomePageDealCell.h */,
+				73BB5CB220158EFE00962930 /* HomePageDealCell.m */,
+				73BB5CB420158F5400962930 /* TradingRangeView.h */,
+				73BB5CB520158F5400962930 /* TradingRangeView.m */,
+				73BB5CB72015B72900962930 /* HomePageUpsNoticeView.h */,
+				73BB5CB82015B72900962930 /* HomePageUpsNoticeView.m */,
+				73BB5CBA2015C2B800962930 /* HomePageAdvertisingCell.h */,
+				73BB5CBB2015C2B800962930 /* HomePageAdvertisingCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73C09B242011E40A00023A35 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B252011E44C00023A35 /* HomePageCtrl.h */,
+				73C09B262011E44C00023A35 /* HomePageCtrl.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		73C09B2B2011E8DB00023A35 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				73BB5CDC2019767500962930 /* LimitLengthTextField.h */,
+				73BB5CDD2019767500962930 /* LimitLengthTextField.m */,
+				73BB5CD52019766700962930 /* WTReTextField */,
+				73BB5CC52016E98F00962930 /* HMSegmentedControl */,
+				73C09B2C2011E8ED00023A35 /* DCURLRouter */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		73C09B2C2011E8ED00023A35 /* DCURLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B2D2011E8ED00023A35 /* DCURLRouter.plist */,
+				73C09B2E2011E8ED00023A35 /* UIViewController+DCURLRouter.m */,
+				73C09B2F2011E8ED00023A35 /* DCURLNavgation.h */,
+				73C09B302011E8ED00023A35 /* DCURLRouter.m */,
+				73C09B312011E8ED00023A35 /* DCSingleton.h */,
+				73C09B322011E8ED00023A35 /* UIViewController+DCURLRouter.h */,
+				73C09B332011E8ED00023A35 /* DCURLRouter.h */,
+				73C09B342011E8ED00023A35 /* DCURLNavgation.m */,
+			);
+			path = DCURLRouter;
+			sourceTree = "<group>";
+		};
+		73C09B3E2011EAB400023A35 /* BitcoinRelated */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B402011EAB400023A35 /* Model */,
+				73C09B412011EAB400023A35 /* View */,
+				73C09B3F2011EAB400023A35 /* ViewModel */,
+				73C09B422011EAB400023A35 /* ViewController */,
+			);
+			path = BitcoinRelated;
+			sourceTree = "<group>";
+		};
+		73C09B3F2011EAB400023A35 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		73C09B402011EAB400023A35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73C09B412011EAB400023A35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				739B0506201DBE8800608C21 /* CoinInfoView.h */,
+				739B0507201DBE8800608C21 /* CoinInfoView.m */,
+				7349B99A201F12AD005BC3F9 /* CoinDealView.h */,
+				7349B99B201F12AD005BC3F9 /* CoinDealView.m */,
+				7346EEE22024524D00B7BE92 /* CoinDealNewsCell.h */,
+				7346EEE32024524D00B7BE92 /* CoinDealNewsCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73C09B422011EAB400023A35 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B552011EEE400023A35 /* BitcoinCtrl.h */,
+				73C09B562011EEE400023A35 /* BitcoinCtrl.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		73C09B432011EACC00023A35 /* MarketRelated */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B452011EACC00023A35 /* Model */,
+				73C09B462011EACC00023A35 /* View */,
+				73C09B442011EACC00023A35 /* ViewModel */,
+				73C09B472011EACC00023A35 /* ViewController */,
+			);
+			path = MarketRelated;
+			sourceTree = "<group>";
+		};
+		73C09B442011EACC00023A35 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		73C09B452011EACC00023A35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73C09B462011EACC00023A35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73BB5CC920170C5300962930 /* OKEXMarketCell.h */,
+				73BB5CCA20170C5300962930 /* OKEXMarketCell.m */,
+				73BB5CCC201888CA00962930 /* GlobalMarketCell.h */,
+				73BB5CCD201888CA00962930 /* GlobalMarketCell.m */,
+				73BB5CD22018A66400962930 /* MarketSettingCell.h */,
+				73BB5CD32018A66400962930 /* MarketSettingCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73C09B472011EACC00023A35 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B522011EE1800023A35 /* MarketBaseCtrl.h */,
+				73C09B532011EE1800023A35 /* MarketBaseCtrl.m */,
+				73BB5CBF2016D5CB00962930 /* OKEXMarketCtrl.h */,
+				73BB5CC02016D5CB00962930 /* OKEXMarketCtrl.m */,
+				73BB5CC22016D5ED00962930 /* GlobalMarketCtrl.h */,
+				73BB5CC32016D5ED00962930 /* GlobalMarketCtrl.m */,
+				73BB5CCF20188A1A00962930 /* MarketSettingCtrl.h */,
+				73BB5CD020188A1A00962930 /* MarketSettingCtrl.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		73C09B482011EAF400023A35 /* ContractRelated */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B4A2011EAF400023A35 /* Model */,
+				73C09B4B2011EAF400023A35 /* View */,
+				73C09B492011EAF400023A35 /* ViewModel */,
+				73C09B4C2011EAF400023A35 /* ViewController */,
+			);
+			path = ContractRelated;
+			sourceTree = "<group>";
+		};
+		73C09B492011EAF400023A35 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		73C09B4A2011EAF400023A35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73C09B4B2011EAF400023A35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7349B9AF2022B0BE005BC3F9 /* ContractInfoView.h */,
+				7349B9B02022B0BE005BC3F9 /* ContractInfoView.m */,
+				7349B9B22022B2EF005BC3F9 /* ContractDealView.h */,
+				7349B9B32022B2EF005BC3F9 /* ContractDealView.m */,
+				7349B9B52022C291005BC3F9 /* ContractTextField.h */,
+				7349B9B62022C291005BC3F9 /* ContractTextField.m */,
+				7346EEE52024740600B7BE92 /* ContractDealNewsCell.h */,
+				7346EEE62024740600B7BE92 /* ContractDealNewsCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73C09B4C2011EAF400023A35 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B582011EF0A00023A35 /* ContractCtrl.h */,
+				73C09B592011EF0A00023A35 /* ContractCtrl.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		73C09B4D2011EB3200023A35 /* MineRelated */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B4F2011EB3200023A35 /* Model */,
+				73C09B502011EB3200023A35 /* View */,
+				73C09B4E2011EB3200023A35 /* ViewModel */,
+				73C09B512011EB3200023A35 /* ViewController */,
+			);
+			path = MineRelated;
+			sourceTree = "<group>";
+		};
+		73C09B4E2011EB3200023A35 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		73C09B4F2011EB3200023A35 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		73C09B502011EB3200023A35 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				73BB5CDF2019BF6B00962930 /* MineTitleView.h */,
+				73BB5CE02019BF6B00962930 /* MineTitleView.m */,
+				73BB5CE22019D3B700962930 /* MineTitlePriceView.h */,
+				73BB5CE32019D3B700962930 /* MineTitlePriceView.m */,
+				739B04F7201D8B2200608C21 /* MineTabCell.h */,
+				739B04F8201D8B2200608C21 /* MineTabCell.m */,
+				739B04FA201D8C5600608C21 /* MineTabView.h */,
+				739B04FB201D8C5600608C21 /* MineTabView.m */,
+				739B0500201D952800608C21 /* MineDefaultCell.h */,
+				739B0501201D952800608C21 /* MineDefaultCell.m */,
+				739B0503201D998700608C21 /* MineLogOutCell.h */,
+				739B0504201D998700608C21 /* MineLogOutCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		73C09B512011EB3200023A35 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				73C09B5B2011EF2200023A35 /* MineCtrl.h */,
+				73C09B5C2011EF2200023A35 /* MineCtrl.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A643D4E10C7BEF007EA210CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC9D2BEBC39EA0A9F249D28A /* Pods-BYBitcoinWallet.debug.xcconfig */,
+				C06844B538432C998AFF403A /* Pods-BYBitcoinWallet.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73C09AB22011C27200023A35 /* BYBitcoinWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73C09ADF2011C27200023A35 /* Build configuration list for PBXNativeTarget "BYBitcoinWallet" */;
+			buildPhases = (
+				1FA16B79B8D020A7A033F751 /* [CP] Check Pods Manifest.lock */,
+				73C09AAF2011C27200023A35 /* Sources */,
+				73C09AB02011C27200023A35 /* Frameworks */,
+				73C09AB12011C27200023A35 /* Resources */,
+				8B1F7BD7BBBD058418F11F4E /* [CP] Embed Pods Frameworks */,
+				71AB6E9A3E968D621726B7DB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BYBitcoinWallet;
+			productName = BYBitcoinWallet;
+			productReference = 73C09AB32011C27200023A35 /* BYBitcoinWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73C09ACA2011C27200023A35 /* BYBitcoinWalletTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73C09AE22011C27200023A35 /* Build configuration list for PBXNativeTarget "BYBitcoinWalletTests" */;
+			buildPhases = (
+				73C09AC72011C27200023A35 /* Sources */,
+				73C09AC82011C27200023A35 /* Frameworks */,
+				73C09AC92011C27200023A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73C09ACD2011C27200023A35 /* PBXTargetDependency */,
+			);
+			name = BYBitcoinWalletTests;
+			productName = BYBitcoinWalletTests;
+			productReference = 73C09ACB2011C27200023A35 /* BYBitcoinWalletTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73C09AD52011C27200023A35 /* BYBitcoinWalletUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73C09AE52011C27200023A35 /* Build configuration list for PBXNativeTarget "BYBitcoinWalletUITests" */;
+			buildPhases = (
+				73C09AD22011C27200023A35 /* Sources */,
+				73C09AD32011C27200023A35 /* Frameworks */,
+				73C09AD42011C27200023A35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73C09AD82011C27200023A35 /* PBXTargetDependency */,
+			);
+			name = BYBitcoinWalletUITests;
+			productName = BYBitcoinWalletUITests;
+			productReference = 73C09AD62011C27200023A35 /* BYBitcoinWalletUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73C09AAB2011C27200023A35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "BaoYin Sun";
+				TargetAttributes = {
+					73C09AB22011C27200023A35 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					73C09ACA2011C27200023A35 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 73C09AB22011C27200023A35;
+					};
+					73C09AD52011C27200023A35 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 73C09AB22011C27200023A35;
+					};
+				};
+			};
+			buildConfigurationList = 73C09AAE2011C27200023A35 /* Build configuration list for PBXProject "BYBitcoinWallet" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73C09AAA2011C27200023A35;
+			productRefGroup = 73C09AB42011C27200023A35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73C09AB22011C27200023A35 /* BYBitcoinWallet */,
+				73C09ACA2011C27200023A35 /* BYBitcoinWalletTests */,
+				73C09AD52011C27200023A35 /* BYBitcoinWalletUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73C09AB12011C27200023A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C09B352011E8ED00023A35 /* DCURLRouter.plist in Resources */,
+				73C09AC02011C27200023A35 /* Assets.xcassets in Resources */,
+				73BB5CBE2016D3C800962930 /* iconfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C09AC92011C27200023A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C09AD42011C27200023A35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FA16B79B8D020A7A033F751 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BYBitcoinWallet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71AB6E9A3E968D621726B7DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BYBitcoinWallet/Pods-BYBitcoinWallet-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BYBitcoinWallet/Pods-BYBitcoinWallet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B1F7BD7BBBD058418F11F4E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BYBitcoinWallet/Pods-BYBitcoinWallet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73C09AAF2011C27200023A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C09AC62011C27200023A35 /* main.m in Sources */,
+				73C09B6D20149AF700023A35 /* HomePageMarketTabCell.m in Sources */,
+				7349B9AE2021CFCB005BC3F9 /* BYTimeHelper.m in Sources */,
+				73BB5CAD2014AB1100962930 /* HomePageAnnouncementCell.m in Sources */,
+				73C09B632014682000023A35 /* UIView+Frame.m in Sources */,
+				73C09B022011CA2800023A35 /* BYTableViewCell.m in Sources */,
+				73C09B2A2011E74600023A35 /* NSArray+ClassProperty.m in Sources */,
+				739B04F9201D8B2200608C21 /* MineTabCell.m in Sources */,
+				73C09B372011E8ED00023A35 /* DCURLRouter.m in Sources */,
+				73C09B272011E44C00023A35 /* HomePageCtrl.m in Sources */,
+				73BB5CE12019BF6B00962930 /* MineTitleView.m in Sources */,
+				739B0502201D952800608C21 /* MineDefaultCell.m in Sources */,
+				7349B99F20205373005BC3F9 /* UILabel+Proprety.m in Sources */,
+				7349B9A520216FAB005BC3F9 /* BYWebSocketManager.m in Sources */,
+				73C09B1F2011D47300023A35 /* BYRequest.m in Sources */,
+				73C09B6920147D4700023A35 /* HomePageTitleView.m in Sources */,
+				739B04FC201D8C5600608C21 /* MineTabView.m in Sources */,
+				73C09B572011EEE400023A35 /* BitcoinCtrl.m in Sources */,
+				73C09B102011CA9500023A35 /* UIImage+BYCustom.m in Sources */,
+				7349B9B72022C291005BC3F9 /* ContractTextField.m in Sources */,
+				73C09B602014361500023A35 /* BYCyclePagerViewCell.m in Sources */,
+				739B0508201DBE8800608C21 /* CoinInfoView.m in Sources */,
+				73BB5CB92015B72900962930 /* HomePageUpsNoticeView.m in Sources */,
+				7349B99C201F12AD005BC3F9 /* CoinDealView.m in Sources */,
+				7349B9B42022B2EF005BC3F9 /* ContractDealView.m in Sources */,
+				73C09B6620146BBB00023A35 /* HomePageDIGICCYListCell.m in Sources */,
+				73C09B5A2011EF0A00023A35 /* ContractCtrl.m in Sources */,
+				7346EEF1202801B800B7BE92 /* BYPopViewAction.m in Sources */,
+				73BB5CCE201888CA00962930 /* GlobalMarketCell.m in Sources */,
+				73C09B002011CA2800023A35 /* BYTabBarController.m in Sources */,
+				73BB5CDE2019767500962930 /* LimitLengthTextField.m in Sources */,
+				73C09B7020149CE200023A35 /* HomePageMarketTabView.m in Sources */,
+				73C09AB82011C27200023A35 /* AppDelegate.m in Sources */,
+				73C09B5D2011EF2200023A35 /* MineCtrl.m in Sources */,
+				73BB5CB320158EFE00962930 /* HomePageDealCell.m in Sources */,
+				73BB5CC12016D5CB00962930 /* OKEXMarketCtrl.m in Sources */,
+				73C09B362011E8ED00023A35 /* UIViewController+DCURLRouter.m in Sources */,
+				73BB5CD42018A66400962930 /* MarketSettingCell.m in Sources */,
+				73C09AFF2011CA2800023A35 /* BYNavigationController.m in Sources */,
+				73BB5CDB2019766700962930 /* WTReParser.m in Sources */,
+				73BB5CBC2015C2B800962930 /* HomePageAdvertisingCell.m in Sources */,
+				73C09AFE2011CA2800023A35 /* BYViewModel.m in Sources */,
+				73C09B012011CA2800023A35 /* BYView.m in Sources */,
+				73BB5CC42016D5ED00962930 /* GlobalMarketCtrl.m in Sources */,
+				7349B9A2202078EB005BC3F9 /* UIButton+Property.m in Sources */,
+				73C09B1A2011CBB700023A35 /* BYLogInCtrl.m in Sources */,
+				73BB5CB02014B15C00962930 /* HomePageDealView.m in Sources */,
+				73BB5CDA2019766700962930 /* WTReTextField.m in Sources */,
+				73C09B032011CA2800023A35 /* BYViewController.m in Sources */,
+				73C09B112011CA9500023A35 /* UIColor+Addition.m in Sources */,
+				73C09B382011E8ED00023A35 /* DCURLNavgation.m in Sources */,
+				73BB5CC82016E98F00962930 /* HMSegmentedControl.m in Sources */,
+				7346EEEE2028019E00B7BE92 /* BYPopViewCell.m in Sources */,
+				73BB5CE42019D3B700962930 /* MineTitlePriceView.m in Sources */,
+				7349B9B12022B0BE005BC3F9 /* ContractInfoView.m in Sources */,
+				73BB5CB620158F5400962930 /* TradingRangeView.m in Sources */,
+				7346EEE72024740600B7BE92 /* ContractDealNewsCell.m in Sources */,
+				7346EEEB2028013200B7BE92 /* BYPopView.m in Sources */,
+				73BB5CCB20170C5300962930 /* OKEXMarketCell.m in Sources */,
+				73C09B542011EE1800023A35 /* MarketBaseCtrl.m in Sources */,
+				7346EEE42024524D00B7BE92 /* CoinDealNewsCell.m in Sources */,
+				739B0505201D998700608C21 /* MineLogOutCell.m in Sources */,
+				73BB5CD120188A1A00962930 /* MarketSettingCtrl.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C09AC72011C27200023A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C09AD02011C27200023A35 /* BYBitcoinWalletTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73C09AD22011C27200023A35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C09ADB2011C27200023A35 /* BYBitcoinWalletUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73C09ACD2011C27200023A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73C09AB22011C27200023A35 /* BYBitcoinWallet */;
+			targetProxy = 73C09ACC2011C27200023A35 /* PBXContainerItemProxy */;
+		};
+		73C09AD82011C27200023A35 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73C09AB22011C27200023A35 /* BYBitcoinWallet */;
+			targetProxy = 73C09AD72011C27200023A35 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		73C09ADD2011C27200023A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73C09ADE2011C27200023A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73C09AE02011C27200023A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC9D2BEBC39EA0A9F249D28A /* Pods-BYBitcoinWallet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/sunbaoyin/Desktop/OkCoiniOS/BYBitcoinWallet/Project/SupportFiles/PrefixHeader.pch;
+				INFOPLIST_FILE = BYBitcoinWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baoyin.BYBitcoinWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		73C09AE12011C27200023A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C06844B538432C998AFF403A /* Pods-BYBitcoinWallet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = /Users/sunbaoyin/Desktop/OkCoiniOS/BYBitcoinWallet/Project/SupportFiles/PrefixHeader.pch;
+				INFOPLIST_FILE = BYBitcoinWallet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baoyin.BYBitcoinWallet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		73C09AE32011C27200023A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BYBitcoinWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baoyin.BYBitcoinWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BYBitcoinWallet.app/BYBitcoinWallet";
+			};
+			name = Debug;
+		};
+		73C09AE42011C27200023A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BYBitcoinWalletTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baoyin.BYBitcoinWalletTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BYBitcoinWallet.app/BYBitcoinWallet";
+			};
+			name = Release;
+		};
+		73C09AE62011C27200023A35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BYBitcoinWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baoyin.BYBitcoinWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BYBitcoinWallet;
+			};
+			name = Debug;
+		};
+		73C09AE72011C27200023A35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BYBitcoinWalletUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.baoyin.BYBitcoinWalletUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BYBitcoinWallet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73C09AAE2011C27200023A35 /* Build configuration list for PBXProject "BYBitcoinWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73C09ADD2011C27200023A35 /* Debug */,
+				73C09ADE2011C27200023A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73C09ADF2011C27200023A35 /* Build configuration list for PBXNativeTarget "BYBitcoinWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73C09AE02011C27200023A35 /* Debug */,
+				73C09AE12011C27200023A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73C09AE22011C27200023A35 /* Build configuration list for PBXNativeTarget "BYBitcoinWalletTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73C09AE32011C27200023A35 /* Debug */,
+				73C09AE42011C27200023A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73C09AE52011C27200023A35 /* Build configuration list for PBXNativeTarget "BYBitcoinWalletUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73C09AE62011C27200023A35 /* Debug */,
+				73C09AE72011C27200023A35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73C09AAB2011C27200023A35 /* Project object */;
+}
